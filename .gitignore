@@ -2,13 +2,14 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.idea/
+migrations/
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -79,11 +80,10 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# dotenv
+# Environments
 .env
-
-# virtualenv
 .venv
+env/
 venv/
 ENV/
 
